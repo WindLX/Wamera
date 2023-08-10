@@ -51,7 +51,7 @@ Camera *init_camera(const char *dev)
 
 Config get_config(Camera *camera)
 {
-    Config config = {0, 0, MJPEG, {1, 1}, 0};
+    Config config = {0, 0, MJPEG, {1, 1}, 0, 0};
 
     struct v4l2_format fmt;
     if (ioctl(camera->fd, VIDIOC_G_FMT, &fmt) < 0)
@@ -108,12 +108,7 @@ LinkedList *get_available_configs(Camera *camera)
                     "\t%d. Width: %u, Height: %u",
                     frmsize.index + 1, frmsize.discrete.width, frmsize.discrete.height);
                 PixFormat pfrm = (fmtdesc.pixelformat == V4L2_PIX_FMT_MJPEG) ? MJPEG : YUYV;
-                Config config = {
-                    frmsize.discrete.width,
-                    frmsize.discrete.height,
-                    pfrm,
-                    {1, 1},
-                    0};
+                Config config = {frmsize.discrete.width, frmsize.discrete.height, pfrm, {1, 1}, 0, 0};
                 Config *config_copy = (Config *)malloc(sizeof(Config));
                 if (config_copy)
                 {

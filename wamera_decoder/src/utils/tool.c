@@ -9,6 +9,11 @@ void destroy_buf(BufType *buf)
     }
 }
 
+unsigned int get_save_frame(Config config)
+{
+    return (unsigned int)av_q2d(av_inv_q(config.time_base)) * config.save_time;
+}
+
 LinkedList *create_linked_list()
 {
     LinkedList *list = (LinkedList *)malloc(sizeof(LinkedList));

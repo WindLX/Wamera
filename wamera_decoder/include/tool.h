@@ -41,7 +41,15 @@ typedef struct Config
     PixFormat pix_format;
     AVRational time_base;
     unsigned int save_time;
+    int64_t bit_rate;
 } Config;
+
+/**
+ * @brief get_save_frame 获取保存时间
+ * @param config 配置
+ * @return unsigned int 保存时长 单位:s 转换为帧数
+ */
+unsigned int get_save_frame(Config config);
 
 #pragma endregion
 

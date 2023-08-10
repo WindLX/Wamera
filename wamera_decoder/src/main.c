@@ -5,55 +5,64 @@
 
 int main()
 {
-    Config config = {1920, 1080, MJPEG, {1, 30}, 60};
+    Config config = {1920, 1080, MJPEG, {1, 30}, 3600, 500000};
 
     logger = init_logger("./log/test.log", LOG_DEBUG);
-    Camera *camera = init_camera("/dev/video0");
+    Camera *camera = init_camera("/dev/video2");
 
-    set_camera_config(camera, config);
-    open_camera(camera);
+    if (set_camera_config(camera, config) < 0)
+        LOG(logger, LOG_WARNING, "Set camera config failed");
+    if (open_camera(camera) < 0)
+        exit(-1);
+
     Codec *codec = init_codec(LOG_INFO);
-    open_codec(codec, config);
+    if (open_codec(codec, config))
+        exit(-1);
 
-    // AVFormatContext *rtmp_ctx = NULL;
-    AVFormatContext *file_ctx = NULL;
-    // open_output(codec, config, &rtmp_ctx, "rtmp://0.0.0.0:1935/wd_video/123", "flv");
-
+    Output *rtmp_output = open_output(config, "rtmp://0.0.0.0:1935/wd_video/123", "flv");
+    Output *file_output = NULL;
+    const unsigned int num = 2;
+    Output *output[num];
     unsigned int count = 0;
+    LOG(logger, LOG_INFO, "Start push stream");
+
     while (1)
     {
-        if (count % config.save_time == 0)
+        if (count % get_save_frame(config) == 0)
         {
-            char path[50];
-            sprintf(path, "/home/windlx/Work/Complex/Wamera/out_%d.mp4", (count / config.save_time));
-            open_output(codec, config, &file_ctx, path, "mp4");
+            time_t rawtime;
+            struct tm *timeinfo;
+            char timestamp[20];
+            time(&rawtime);
+            timeinfo = localtime(&rawtime);
+            strftime(timestamp, sizeof(timestamp), "%Y%m%d_%H%M%S", timeinfo);
+            char path[80];
+            sprintf(path, "/home/windlx/Work/Complex/Wamera/video/out_%s.mp4", timestamp);
+            file_output = open_output(config, path, "mp4");
+            LOG(logger, LOG_INFO, "Start write file: %s", path);
         }
-        // AVFormatContext *frm_ctx[] = {
-        // rtmp_ctx, file_ctx};
         BufType *frame = get_frame(camera);
-        dispose_codec(codec, *frame, count, file_ctx, 1);
-        if (count % config.save_time == 0 && count >= config.save_time)
+        output[0] = rtmp_output;
+        output[1] = file_output;
+        if (dispose_codec(codec, output, num, *frame, count) == -1)
+            break;
+        if (count % get_save_frame(config) == get_save_frame(config) - 1)
         {
-            close_output(file_ctx);
+            close_output(file_output);
         }
         count++;
     }
-    // avformat_alloc_output_context2(&out_ctx, NULL, NULL, "/home/windlx/Work/Complex/Wamera/output.mp4");
-    // avformat_alloc_output_context2(&out_ctx, NULL, "flv", "rtmp://0.0.0.0:1935/wd_video/123");
-    close_output(file_ctx);
-    // close_output(rtmp_ctx);
+
+    if (close_output(rtmp_output) < 0)
+        exit(-1);
+    if (file_output)
+        if (close_output(file_output) < 0)
+            exit(-1);
+    LOG(logger, LOG_INFO, "End push stream");
     close_codec(codec);
     destroy_codec(codec);
     close_camera(camera);
     destroy_camera(camera);
+    LOG(logger, LOG_INFO, "Close camera");
     destroy_logger(logger);
 }
-// char buffer[256];
-// sprintf(buffer, "/home/windlx/Work/Complex/Wamera/video/%d.jpg", i);
-// int file_fd = open(buffer, O_RDWR | O_CREAT, 0666); // 若打开失败则不存储该帧图像
-// if (file_fd > 0)
-// {
-//     printf("saving %d images\n", i);
-//     write(file_fd, frame->start, frame->length);
-//     close(file_fd);
-// }

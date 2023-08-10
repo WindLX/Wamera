@@ -8,7 +8,6 @@ Codec *init_codec(LogLevel level)
     codec->out_codec = NULL;
     codec->in_codec_ctx = NULL;
     codec->out_codec_ctx = NULL;
-    codec->out_stream = NULL;
 
     // 初始化FFmpeg
     if (avformat_network_init() < 0)
@@ -51,8 +50,6 @@ void destroy_codec(Codec *codec)
 
 int open_codec(Codec *codec, Config config)
 {
-    codec->save_time = config.save_time;
-
     // 配置编码器
     codec->out_codec = avcodec_find_encoder(AV_CODEC_ID_H264);
     if (!codec->out_codec)
@@ -122,7 +119,7 @@ int open_codec(Codec *codec, Config config)
     return 0;
 }
 
-int dispose_codec(Codec *codec, BufType frame, int64_t time_stamp, AVFormatContext *frm_ctx_set, int length)
+int dispose_codec(Codec *codec, Output **output, unsigned int length, BufType frame, int64_t time_stamp)
 {
     // 设置解码输入
     AVPacket *packet = av_packet_alloc();
@@ -170,19 +167,22 @@ int dispose_codec(Codec *codec, BufType frame, int64_t time_stamp, AVFormatConte
     }
     else if (ret == 0)
     {
-        // 设置时间戳
-        encoded_packet->pts = av_rescale_q(time_stamp, codec->out_codec_ctx->time_base, codec->out_stream->time_base);
-        encoded_packet->dts = encoded_packet->pts;
-
-        // 写入编码后的帧到输出流
-        for (int i = 0; i < length; i++)
+        for (unsigned int i = 0; i < length; i++)
         {
-            ret = av_interleaved_write_frame(frm_ctx_set, encoded_packet);
+            // 设置时间戳
+            encoded_packet->pts = av_rescale_q(time_stamp, codec->out_codec_ctx->time_base, output[i]->stream->time_base);
+            encoded_packet->dts = encoded_packet->pts;
+            AVPacket *encoded_packet_clone = av_packet_clone(encoded_packet);
+
+            // 写入编码后的帧到输出流
+            ret = av_interleaved_write_frame(output[i]->frm_ctx, encoded_packet_clone);
             if (ret < 0)
             {
                 LOG(logger, LOG_ERROR, "Error writing encoded frame");
                 return -1;
             }
+            av_packet_unref(encoded_packet_clone);
+            av_packet_free(&encoded_packet_clone);
         }
     }
     else if (ret < 0)
@@ -206,60 +206,80 @@ void close_codec(Codec *codec)
     avcodec_free_context(&(codec->out_codec_ctx));
 }
 
-int open_output(Codec *codec, Config config, AVFormatContext **frm_ctx, const char *path, const char *format)
+Output *open_output(Config config, const char *path, const char *format)
 {
-    if (avformat_alloc_output_context2(frm_ctx, NULL, format, path) < 0)
+    Output *output = (Output *)malloc(sizeof(Output));
+    output->frm_ctx = NULL;
+    output->stream = NULL;
+
+    if (avformat_alloc_output_context2(&(output->frm_ctx), NULL, format, path) < 0)
     {
         LOG(logger, LOG_ERROR, "Open `%s` output context failed", format);
-        return -1;
+        free(output);
+        return NULL;
     }
+
     AVOutputFormat *out_fmt = av_guess_format(format, NULL, NULL);
     if (!out_fmt)
     {
         LOG(logger, LOG_ERROR, "Find format `%s` failed", format);
-        return -1;
+        avformat_free_context(output->frm_ctx);
+        free(output);
+        return NULL;
     }
-    (*frm_ctx)->oformat = out_fmt;
-    if (avio_open(&(*frm_ctx)->pb, path, AVIO_FLAG_WRITE) < 0)
+    output->frm_ctx->oformat = out_fmt;
+
+    if (avio_open(&output->frm_ctx->pb, path, AVIO_FLAG_WRITE) < 0)
     {
         LOG(logger, LOG_ERROR, "Open output `%s` failed", path);
-        return -1;
+        avformat_free_context(output->frm_ctx);
+        free(output);
+        return NULL;
     }
 
-    codec->out_stream = avformat_new_stream(*frm_ctx, NULL);
-    if (!codec->out_stream)
+    output->stream = avformat_new_stream(output->frm_ctx, NULL);
+    if (!output->stream)
     {
-        LOG(logger, LOG_ERROR, "Add new out stream failed");
-        return -1;
+        LOG(logger, LOG_ERROR, "Add new out output failed");
+        avio_close(output->frm_ctx->pb);
+        avformat_free_context(output->frm_ctx);
+        free(output);
+        return NULL;
     }
+
     // 设置视频参数，例如分辨率、帧率、码率等
-    codec->out_stream->codecpar->codec_type = AVMEDIA_TYPE_VIDEO;
-    codec->out_stream->codecpar->codec_id = AV_CODEC_ID_H264;
-    codec->out_stream->codecpar->width = config.width;
-    codec->out_stream->codecpar->height = config.height;
-    codec->out_stream->codecpar->format = AV_PIX_FMT_YUV422P;
-    codec->out_stream->codecpar->bit_rate = 500000;
-    codec->out_stream->time_base = config.time_base;
-    if (avformat_write_header(*frm_ctx, NULL) < 0)
+    output->stream->codecpar->codec_type = AVMEDIA_TYPE_VIDEO;
+    output->stream->codecpar->codec_id = AV_CODEC_ID_H264;
+    output->stream->codecpar->width = config.width;
+    output->stream->codecpar->height = config.height;
+    output->stream->codecpar->format = AV_PIX_FMT_YUV422P;
+    output->stream->codecpar->bit_rate = config.bit_rate;
+    output->stream->time_base = config.time_base;
+    if (avformat_write_header(output->frm_ctx, NULL) < 0)
     {
         LOG(logger, LOG_ERROR, "Write head failed");
-        return -1;
+        avio_close(output->frm_ctx->pb);
+        avformat_free_context(output->frm_ctx);
+        free(output);
+        return NULL;
     }
-    return 0;
+    return output;
 }
 
-int close_output(AVFormatContext *frm_ctx)
+int close_output(Output *output)
 {
-    if (av_write_trailer(frm_ctx) < 0)
+    if (av_write_trailer(output->frm_ctx) < 0)
     {
         LOG(logger, LOG_ERROR, "Write trailer failed");
         return -1;
     }
-    if (avio_close(frm_ctx->pb) < 0)
+    if (avio_close(output->frm_ctx->pb) < 0)
     {
         LOG(logger, LOG_ERROR, "Close io failed");
         return -1;
     }
-    avformat_free_context(frm_ctx);
+    avformat_free_context(output->frm_ctx);
+    output->stream = NULL;
+    free(output);
     return 0;
 }
