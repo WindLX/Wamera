@@ -1,0 +1,318 @@
+[2023-08-07 09:23:26] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 09:23:26] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 09:43:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 09:43:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 09:45:40] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 09:45:40] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 09:45:44] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 09:45:44] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 09:48:00] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 09:48:00] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 09:50:31] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 09:50:31] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 09:53:28] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 09:53:28] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 09:53:32] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 09:53:32] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 09:57:38] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 09:57:38] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 09:58:24] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 09:58:24] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:00:07] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:00:07] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:00:56] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:00:56] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:01:00] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:01:00] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:02:42] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:02:42] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:03:15] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:03:15] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:03:48] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:03:48] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:04:12] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:04:12] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:05:06] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:05:06] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:08:31] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:08:31] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:10:51] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:10:51] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:12:58] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:12:58] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:13:01] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:13:01] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:14:47] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:14:47] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:16:20] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:16:20] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:20:06] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:20:06] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:21:28] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:21:28] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:22:27] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:22:27] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:29:38] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:29:38] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:40:08] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:40:08] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:41:18] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:41:18] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:54:11] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:54:11] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:56:44] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:56:44] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:57:11] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:57:11] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:57:40] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:57:40] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:58:00] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:58:00] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 10:59:59] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 10:59:59] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:01:36] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:01:36] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:03:53] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:03:53] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:05:46] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:05:46] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:33:11] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:33:11] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:36:26] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:36:26] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:40:31] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:40:31] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:41:07] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:41:07] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:42:23] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:42:23] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:43:33] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:43:33] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:46:04] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:46:04] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:46:14] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:46:14] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:47:02] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:47:02] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:47:23] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:47:23] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:47:56] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:47:56] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:48:44] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:48:44] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:49:20] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:49:20] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:51:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:51:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:53:12] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:53:12] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:53:48] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:53:48] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:54:17] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:54:17] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:55:19] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:55:19] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:55:33] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:55:33] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:59:28] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:59:28] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 11:59:53] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 11:59:53] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:02:51] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:02:51] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:03:56] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:03:56] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:04:55] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:04:55] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:06:16] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:06:16] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:11:38] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:11:38] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:12:50] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:12:50] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:13:09] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:13:09] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:13:25] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:13:25] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:35:28] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:35:28] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:36:12] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:36:12] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:36:47] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:36:47] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:40:59] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:40:59] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:41:19] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:41:19] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:48:33] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:48:33] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:51:27] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:51:27] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:53:31] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:53:31] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:54:04] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:54:04] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:55:19] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:55:19] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:55:57] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:55:57] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 12:57:03] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 12:57:03] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:02:50] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:02:50] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:03:10] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:03:10] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:04:50] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:04:50] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:04:54] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:04:54] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:06:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:06:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:07:18] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:07:18] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:08:19] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:08:19] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:10:36] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:10:36] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:10:55] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:10:55] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:11:15] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:11:15] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:11:31] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:11:31] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:12:00] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:12:00] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:15:56] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:15:56] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 13:17:48] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 13:17:48] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:36:15] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:36:15] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:37:10] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:37:10] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:38:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:38:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:40:25] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:40:25] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:40:38] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:40:38] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:41:08] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:41:08] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:41:21] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:41:21] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:43:37] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:43:37] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:43:42] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:43:42] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:44:21] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:44:21] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:46:49] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:46:49] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:47:47] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:47:47] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:47:55] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:47:55] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:48:04] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:48:04] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:48:31] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:48:31] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:48:35] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:48:35] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:49:03] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:49:03] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:51:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:51:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:53:43] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:53:43] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 16:54:29] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 16:54:29] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:01:45] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:01:45] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:03:24] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:03:24] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:04:53] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:04:53] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:10:11] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:10:11] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:10:42] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:10:42] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:12:34] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:12:34] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:13:27] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:13:27] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:17:53] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:17:53] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:19:14] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:19:14] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:19:36] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:19:36] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:20:06] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:20:06] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:20:38] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:20:38] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:20:58] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:20:58] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:25:20] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:25:20] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:26:02] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:26:02] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:27:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:27:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:27:25] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:27:25] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:29:15] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:29:15] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:29:44] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:29:44] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:30:07] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:30:07] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:30:53] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:30:53] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:30:57] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:30:57] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:31:53] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:31:53] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:32:00] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:32:00] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:32:25] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:32:25] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:32:45] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:32:45] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:33:05] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:33:05] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:33:55] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:33:55] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:45:48] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:45:48] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:45:52] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:45:52] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:46:41] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:46:41] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:47:21] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:47:21] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:48:19] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:48:19] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:48:43] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:48:43] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:49:08] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:49:08] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:49:40] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:49:40] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:51:17] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:51:17] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:52:15] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:52:15] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 17:53:28] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 17:53:28] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 18:01:35] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 18:01:35] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 18:04:17] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 18:04:17] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 18:05:16] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 18:05:16] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 18:13:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 18:13:13] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 18:15:00] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 18:15:00] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
+[2023-08-07 19:14:02] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:16] init_camera: Succeed to open camera `/dev/video2`
+[2023-08-07 19:14:02] [INFO] [/home/windlx/Work/Complex/Wamera/wamera_decoder/src/core/camera.c:44] init_camera: `/dev/video2` unsupport capture
